@@ -7,6 +7,7 @@ import xml.etree.ElementTree as et
 import os
 
 
+#The code for this function was written by @DIPIE (telegram)
 def pars_rss(xml_file):
     tree = et.parse(xml_file)
     root = tree.getroot()
